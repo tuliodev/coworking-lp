@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  
+  body {
+    font-family: 'Inter', 'Arial', sans-serif;
+  }
+  
+  /* Garante que as seções não fiquem escondidas atrás do header */
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+  
+  @media (max-width: 640px) {
+    html {
+      scroll-padding-top: 100px;
+    }
+    
+    section[id] {
+      scroll-margin-top: 100px;
+    }
+  }
+}
+
+@layer components {
+  .gradient-primary {
+    background: linear-gradient(135deg, #8AB781, #1B5668);
+  }
+  
+  .gradient-secondary {
+    background: linear-gradient(135deg, #1B5668, #8AB781);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #8AB781, #1B5668);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Botões responsivos e profissionais */
+  .btn-primary {
+    @apply bg-white text-blue-600 px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 hover:shadow-xl inline-block border-2 border-white;
+  }
+  
+  .btn-primary:hover {
+    @apply bg-blue-50 text-blue-700 shadow-2xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-white text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-white hover:text-blue-600 inline-block;
+  }
+  
+  .btn-secondary:hover {
+    @apply shadow-xl;
+  }
+  
+  /* Botão de gradiente */
+  .btn-gradient {
+    @apply text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 hover:shadow-xl inline-block;
+    background: linear-gradient(135deg, #10b981, #3b82f6);
+    border: 2px solid transparent;
+  }
+  
+  .btn-gradient:hover {
+    @apply shadow-2xl;
+    background: linear-gradient(135deg, #059669, #2563eb);
+  }
+  
+  /* Botão de ação (call to action) */
+  .btn-cta {
+    @apply bg-green-500 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-green-600 hover:scale-105 hover:shadow-xl inline-block;
+  }
+  
+  /* Botão no header */
+  .btn-header {
+    @apply bg-gradient-to-r from-green-500 to-blue-600 text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg inline-block;
+  }
+  
+  /* Botão de contato escuro */
+  .btn-contact-dark {
+    @apply bg-blue-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl inline-block;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes stars {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-stars {
+  animation: stars 20s linear infinite;
+}
+
+.animate-shine {
+  animation: shine 3s ease-in-out infinite;
+}
+
+/* Melhorias de acessibilidade */
+.btn-primary:focus,
+.btn-secondary:focus,
+.btn-gradient:focus,
+.btn-cta:focus,
+.btn-header:focus,
+.btn-contact-dark:focus {
+  @apply outline-none ring-4 ring-blue-300 ring-opacity-50;
+}
+
+/* Estados de loading para botões */
+.btn-loading {
+  @apply opacity-75 cursor-not-allowed;
+}
+
+.btn-loading::after {
+  content: '';
+  @apply inline-block w-4 h-4 ml-2 border-2 border-current border-t-transparent rounded-full animate-spin;
+}
+
+/* Responsividade adicional */
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    @apply text-2xl;
+  }
+  
+  h2 {
+    @apply text-xl;
+  }
+  
+  h3 {
+    @apply text-lg;
+  }
+}
