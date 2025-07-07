@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-3 mb-4 sm:mb-6">
               <div className="relative w-8 h-8 sm:w-10 md:w-12 sm:h-10 md:h-12">
                 <Image
-                  src="/images/LOGOTIPO ESPAÇO NAVE-09.png"
+                  src="/images/LOGOTIPO ESPAÇO NAVE-04.png"
                   alt="Logo Espaço Nave"
                   fill
                   className="object-contain filter brightness-0 invert"
@@ -36,9 +36,11 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <p className="text-gray-300 leading-relaxed max-w-md text-sm sm:text-base mx-auto sm:mx-0">
-              Ambiente profissional moderno em Varginha-MG. Espaços flexíveis, 
-              infraestrutura completa e comunidade colaborativa para impulsionar seu negócio.
+            <p className="text-gray-300 leading-relaxed max-w-md text-sm sm:text-base mx-auto sm:mx-0 mb-4">
+              Muito mais que um coworking. Um ponto de partida para o seu próximo salto.
+            </p>
+            <p className="text-green-400 font-medium italic text-sm sm:text-base">
+              "Espaço Nave. Onde o trabalho se conecta com o futuro."
             </p>
           </div>
 

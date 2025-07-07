@@ -47,12 +47,12 @@ const About = () => {
   ]
 
   const differentials = [
-    { icon: Building2, text: 'Localização estratégica no centro de Varginha' },
-    { icon: Wifi, text: 'Internet fibra óptica dedicada de alta velocidade' },
-    { icon: Snowflake, text: 'Ambiente climatizado em todos os espaços' },
-    { icon: Car, text: 'Estacionamento próprio para clientes' },
-    { icon: Coffee, text: 'Copa equipada com café e água mineral' },
-    { icon: Shield, text: 'Sistema de segurança e controle de acesso' }
+    { icon: Building2, text: 'Ambiente inspirador que estimula a criatividade e a produtividade' },
+    { icon: Wifi, text: 'Infraestrutura completa: Wi-Fi potente, climatização, recepção e copa' },
+    { icon: Snowflake, text: 'Conexão com outros profissionais e possibilidade de networking real' },
+    { icon: Car, text: 'Localização estratégica em Varginha, com fácil acesso e segurança' },
+    { icon: Coffee, text: 'Flexibilidade de horários e modelos de contratação sob medida' },
+    { icon: Shield, text: 'Atendimento próximo, humano e comprometido com a sua experiência' }
   ]
 
   return (
@@ -67,20 +67,19 @@ const About = () => {
             </div>
             
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-600 mb-6 sm:mb-8">
-              Infraestrutura profissional para seu negócio
+              Por que Espaço Nave?
             </h2>
             
             <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed mb-6 sm:mb-8">
               <p className="text-base sm:text-lg">
-                O Espaço Nave oferece <strong>infraestrutura completa</strong> para profissionais 
-                e empresas que buscam um ambiente moderno, funcional e estrategicamente localizado 
-                em Varginha-MG.
+                Porque mais do que um coworking, somos um <strong>lugar com propósito, conceito e identidade</strong>. 
+                A escolha do nome Espaço Nave nasce da conexão direta com a cidade de Varginha — famosa nacionalmente pelo caso do ET.
               </p>
               
               <p className="text-base sm:text-lg">
-                Com <strong>foco na produtividade</strong> e networking profissional, 
-                disponibilizamos desde estações de trabalho compartilhadas até salas privativas 
-                e auditório para eventos corporativos.
+                A palavra “nave” simboliza <strong>movimento, avanço, inovação</strong> e a coragem de explorar o desconhecido. 
+                É sobre sair da zona de conforto e construir novos caminhos. Cada ambiente foi pensado como uma 
+                <strong>plataforma de decolagem</strong> para ideias ganharem forma.
               </p>
             </div>
 
@@ -153,11 +152,11 @@ const About = () => {
         <div className="mt-12 sm:mt-16 lg:mt-20 text-center">
           <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 sm:p-8 rounded-2xl max-w-4xl mx-auto">
             <h3 className="text-xl sm:text-2xl font-bold text-blue-600 mb-3 sm:mb-4">
-              Pronto para conhecer nossa infraestrutura?
+              Pronto para decolar?
             </h3>
             <p className="text-gray-700 mb-4 sm:mb-6 max-w-2xl mx-auto text-sm sm:text-base">
-              Agende uma visita técnica e conheça todos os nossos ambientes, 
-              equipamentos e facilidades disponíveis para seu negócio.
+              O Espaço Nave é, acima de tudo, um convite. Um convite para quem quer crescer, criar, colaborar. 
+              Para quem acredita que trabalhar em um bom lugar faz toda a diferença.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <a 

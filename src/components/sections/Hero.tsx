@@ -53,37 +53,36 @@ const Hero = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
               ESPAÇO NAVE
               <span className="block text-green-300 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-normal mt-1 sm:mt-2">
-                Coworking Profissional
+                Coworking
               </span>
             </h1>
             
             <h2 className={`text-lg sm:text-xl lg:text-2xl text-white/95 mb-4 sm:mb-6 font-medium transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-              Infraestrutura completa para seu negócio crescer
+              Muito mais que um coworking. Um ponto de partida para o seu próximo salto.
             </h2>
             
             <div className={`mb-6 sm:mb-8 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
               <p className="text-base sm:text-lg text-white/90 mb-3 sm:mb-4">
-                Salas privativas, estações compartilhadas, auditório e salas de reunião 
-                em ambiente profissional no centro de Varginha.
+                Imagine um lugar onde o ambiente trabalha junto com você. Onde cada espaço foi pensado para dar suporte às suas ideias, estimular conexões reais e criar experiências transformadoras.
               </p>
               
               {/* Benefícios principais */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 text-sm">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-300 flex-shrink-0" />
-                  <span>Internet de alta velocidade</span>
+                  <span>Ambiente inspirador que estimula a criatividade</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-300 flex-shrink-0" />
-                  <span>Localização central</span>
+                  <span>Infraestrutura completa e moderna</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-300 flex-shrink-0" />
-                  <span>Ambiente climatizado</span>
+                  <span>Conexão com outros profissionais</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-300 flex-shrink-0" />
-                  <span>Estacionamento próprio</span>
+                  <span>Localização estratégica em Varginha</span>
                 </div>
               </div>
             </div>
@@ -91,11 +90,11 @@ const Hero = () => {
             <div className={`flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
               <Link href="#contact" className="btn-primary shadow-2xl flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
                 <Phone className="w-4 h-4" />
-                <span>Agendar Visita</span>
+                <span>Agende sua Visita</span>
               </Link>
               <Link href="#services" className="btn-secondary flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
                 <FileText className="w-4 h-4" />
-                <span>Ver Serviços</span>
+                <span>Conheça o Espaço</span>
               </Link>
             </div>
 

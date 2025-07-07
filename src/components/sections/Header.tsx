@@ -53,9 +53,9 @@ const Header = () => {
             {[
               { href: '#home', label: 'Início' },
               { href: '#services', label: 'Serviços' },
+              { href: '#benefits', label: 'Benefícios' },
               { href: '#about', label: 'Sobre' },
               { href: '#gallery', label: 'Galeria' },
-              { href: '#location', label: 'Localização' },
               { href: '#contact', label: 'Contato' }
             ].map((item) => (
               <li key={item.href}>

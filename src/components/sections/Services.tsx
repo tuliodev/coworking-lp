@@ -112,73 +112,73 @@ const Services = () => {
   const services = [
     {
       icon: Briefcase,
-      title: 'Estações de Coworking',
-      description: 'Posições de trabalho em ambiente compartilhado com infraestrutura completa.',
+      title: 'Estações de trabalho compartilhadas',
+      description: 'Ambientes organizados, confortáveis e com internet de alta velocidade para você focar no que importa: produzir.',
       features: [
-        'Mesa individual com gavetas',
-        'Cadeira ergonômica',
-        'Internet fibra óptica',
-        'Uso da copa e impressora'
+        'Ideal para autônomos e freelancers',
+        'Estudantes e pequenos negócios',
+        'Espaço inteligente e funcional',
+        'Bem localizado e equipado'
       ],
       image: '/images/IMG_0690.JPG'
     },
     {
       icon: Building2,
-      title: 'Salas Privativas',
-      description: 'Ambientes exclusivos para equipes de 2 a 8 pessoas com total privacidade.',
+      title: 'Salas privativas para locação',
+      description: 'Precisa de mais privacidade para reuniões, atendimentos ou uma rotina fixa de trabalho?',
       features: [
-        'Sala mobiliada e climatizada',
-        'Controle de acesso individual',
-        'Mesa de reunião inclusa',
-        'Armário com chave'
+        'Salas mobiliadas e climatizadas',
+        'Prontas para uso imediato',
+        'Contratos flexíveis',
+        'Estrutura profissional'
       ],
       image: '/images/IMG_0740 (1).JPG'
     },
     {
       icon: Users,
-      title: 'Sala de Reunião',
-      description: 'Espaço equipado para apresentações, reuniões e videoconferências.',
+      title: 'Sala de reunião equipada',
+      description: 'Espaço exclusivo para reuniões presenciais ou videoconferências, com TV, ar-condicionado e uma atmosfera profissional.',
       features: [
-        'TV 55" com conexão HDMI',
-        'Mesa para 8 pessoas',
-        'Flipchart e materiais',
-        'Climatização independente'
+        'Perfeita para atender clientes',
+        'Conduzir entrevistas e apresentações',
+        'Alinhamentos de equipe',
+        'Total conforto e discrição'
       ],
       image: '/images/IMG_0721 (1).JPG'
     },
     {
       icon: Presentation,
-      title: 'Auditório para Eventos',
-      description: 'Espaço completo para cursos, palestras e eventos corporativos.',
+      title: 'Ambiente para eventos, cursos e palestras',
+      description: 'Se você promove encontros, treinamentos, lançamentos ou quer compartilhar conhecimento, temos um espaço versátil.',
       features: [
-        'Capacidade para 40 pessoas',
-        'Projetor e sistema de som',
-        'Palco e equipamentos A/V',
-        'Copa de apoio inclusa'
+        'Pronto para se adaptar ao seu formato',
+        'Estrutura para receber bem o seu público',
+        'Experiência completa e personalizada',
+        'Equipamentos modernos disponíveis'
       ],
       image: '/images/IMG_0746 (1).JPG'
     },
     {
       icon: Calendar,
-      title: 'Day Use',
-      description: 'Acesso por período para quem precisa de um ambiente profissional pontualmente.',
+      title: 'Horários flexíveis',
+      description: 'Flexibilidade de horários e modelos de contratação sob medida para sua necessidade.',
       features: [
-        'Acesso por 4 ou 8 horas',
-        'Internet e impressão',
-        'Uso da copa',
-        'Ambiente climatizado'
+        'Contratos personalizados',
+        'Acesso 24/7 disponível',
+        'Day use e mensalidades',
+        'Sem burocracias desnecessárias'
       ],
       image: '/images/IMG_0757.JPG'
     },
     {
       icon: MapPin,
-      title: 'Endereço Comercial',
-      description: 'Use nosso endereço para correspondência e domicílio fiscal da sua empresa.',
+      title: 'Atendimento humanizado',
+      description: 'Atendimento próximo, humano e comprometido com a sua experiência no Espaço Nave.',
       features: [
-        'Recebimento de correspondências',
-        'Atestado de localização',
-        'Sala de reunião inclusa (2h/mês)',
-        'Endereço em região nobre'
+        'Recepção acolhedora',
+        'Suporte personalizado',
+        'Comunidade de profissionais',
+        'Networking real e efetivo'
       ],
       image: '/images/IMG_0733.JPG'
     }
@@ -194,11 +194,10 @@ const Services = () => {
             <span>Nossos Serviços</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 mb-4 sm:mb-6">
-            Soluções completas para seu negócio
+            Aqui você encontra
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-            Infraestrutura profissional, flexibilidade de planos e localização estratégica 
-            para impulsionar seus resultados.
+            Um hub de trabalho, encontros e eventos que une estrutura, conforto e inovação para profissionais que querem ir além do básico.
           </p>
         </div>
 
