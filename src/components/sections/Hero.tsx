@@ -28,7 +28,7 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="min-h-screen gradient-primary flex items-center relative overflow-hidden pt-16 sm:pt-20 lg:pt-0"
+      className="min-h-screen gradient-primary flex items-center relative overflow-hidden pt-24 pb-16 sm:pt-32 sm:pb-20 lg:pt-0"
     >
       {/* Stars Background */}
       <div className="absolute inset-0 opacity-20">
@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-100px)] sm:min-h-[calc(100vh-96px)] lg:min-h-[calc(100vh-80px)]">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-200px)] sm:min-h-[calc(100vh-240px)] lg:min-h-[calc(100vh-80px)]">
           {/* Hero Text */}
           <div className={`text-white transition-all duration-1000 order-2 lg:order-1 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div className={`inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
@@ -99,21 +99,25 @@ const Hero = () => {
             </div>
 
             {/* Informações de contato direto */}
-            <div className={`flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 lg:gap-6 text-xs sm:text-sm transition-all duration-1000 delay-800 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-              <a 
-                href="tel:+553599999999"
-                className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white/20 transition-colors"
-              >
-                <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-                <span>(35) 9 9999-9999</span>
-              </a>
-              <div className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm">
-                <MapPin className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-                <span>Vila Pinto, Varginha-MG</span>
+            <div className={`flex flex-col gap-3 text-xs sm:text-sm transition-all duration-1000 delay-800 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+              <div className="flex flex-wrap gap-2 sm:gap-3 justify-center lg:justify-start">
+                <a 
+                  href="tel:+553599999999"
+                  className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white/20 transition-colors min-w-0 flex-shrink-0"
+                >
+                  <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+                  <span className="truncate">(35) 9 9999-9999</span>
+                </a>
+                <div className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm min-w-0 flex-shrink-0">
+                  <MapPin className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+                  <span className="truncate">Vila Pinto, Varginha-MG</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm">
-                <Clock className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-                <span>Seg-Sex 8h às 18h</span>
+              <div className="flex justify-center lg:justify-start">
+                <div className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm">
+                  <Clock className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+                  <span>Seg-Sex 8h às 18h</span>
+                </div>
               </div>
             </div>
           </div>
@@ -123,14 +127,14 @@ const Hero = () => {
             <div className="relative">
               {/* Main circle */}
               <div className="w-64 h-64 sm:w-80 sm:h-80 bg-white/10 rounded-full flex items-center justify-center animate-float backdrop-blur-sm border border-white/20 relative">
-              <Image
-                              src="/images/LOGOTIPO ESPAÇO NAVE-04.png"
-                              alt="Logo Espaço Nave"
-                              width={102}
-                              height={102}
-                              className="object-contain"
-                              sizes="(max-width: 640px) 32px, (max-width: 768px) 40px, 48px"
-                            />
+                <Image
+                  src="/images/LOGOTIPO ESPAÇO NAVE-04.png"
+                  alt="Logo Espaço Nave"
+                  width={102}
+                  height={102}
+                  className="object-contain"
+                  sizes="(max-width: 640px) 32px, (max-width: 768px) 40px, 48px"
+                />
               </div>
               
               {/* Orbital rings */}
