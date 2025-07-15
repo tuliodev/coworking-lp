@@ -25,26 +25,22 @@ const Header = () => {
           : 'bg-white/95 backdrop-blur-md'
       }`}
     >
-      <nav className="container mx-auto px-4 py-3 sm:py-4">
-        <div className="flex justify-between items-center h-12 sm:h-auto">
+      <nav className="container mx-auto px-4 py-1 sm:py-2">
+        <div className="flex justify-between items-center h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20">
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform duration-300">
-            <div className="relative w-8 h-8 sm:w-10 md:w-12 sm:h-10 md:h-12">
+            <div className="relative h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 logo-container flex items-center">
               <Image
-                src="/images/LOGOTIPO ESPAÇO NAVE-04.png"
-                alt="Logo Espaço Nave"
-                fill
-                className="object-contain"
-                sizes="(max-width: 640px) 32px, (max-width: 768px) 40px, 48px"
+                src="/images/LOGOTIPO ESPAÇO NAVE-09.png"
+                alt="Logo Espaço Nave Coworking"
+                width={600}
+                height={150}
+                className="object-contain h-full w-auto max-w-none"
+                sizes="(max-width: 640px) 200px, (max-width: 768px) 250px, (max-width: 1024px) 450px, (max-width: 1280px) 550px, 650px"
+                priority
+                quality={100}
+                unoptimized={false}
               />
-            </div>
-            <div className="hidden sm:block">
-              <div className="text-sm sm:text-lg md:text-xl font-bold text-blue-600">
-                ESPAÇO<span className="text-green-500">NAVE</span>
-              </div>
-              <div className="text-xs text-green-500 uppercase tracking-widest font-medium">
-                COWORKING
-              </div>
             </div>
           </Link>
 

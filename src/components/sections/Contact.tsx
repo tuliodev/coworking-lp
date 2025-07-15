@@ -87,7 +87,7 @@ const Contact = () => {
               <span>Entre em Contato</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-              Agende sua visita hoje mesmo
+              Entre em contato conosco
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-white/95 mb-6 sm:mb-8 max-w-3xl mx-auto">
               Nossa equipe está pronta para apresentar a infraestrutura completa 
@@ -103,8 +103,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Atendimento Imediato</h3>
               <p className="text-white/90 mb-4 sm:mb-6 text-sm sm:text-base">
-                Ligue agora e agende sua visita para esta semana. 
-                Atendimento comercial de segunda a sexta, das 8h às 18h.
+                Ligue agora para conhecer mais sobre o Espaço Nave. 
+                Atendimento comercial de segunda a sexta, das 7h às 18:30h.
               </p>
             </div>
             
@@ -141,7 +141,7 @@ const Contact = () => {
               icon={Phone}
               title="Telefone Comercial"
               info="(35) 9 9999-9999"
-              description="Atendimento comercial e agendamento de visitas"
+              description="Atendimento comercial e informações"
               href="tel:+553599999999"
               primary
             />
@@ -172,22 +172,22 @@ const Contact = () => {
                 <div className="bg-white/10 rounded-xl p-4 sm:p-6">
                   <Building2 className="w-6 h-6 sm:w-8 sm:h-8 text-white mx-auto mb-2 sm:mb-3" />
                   <h4 className="font-bold text-base sm:text-lg mb-1 sm:mb-2">Segunda a Sexta</h4>
-                  <p className="text-xl sm:text-2xl font-bold text-green-300">8h às 18h</p>
+                  <p className="text-xl sm:text-2xl font-bold text-green-300">7h às 18:30h</p>
                   <p className="text-white/80 text-xs sm:text-sm mt-1 sm:mt-2">Atendimento comercial e acesso</p>
                 </div>
               </div>
               <div className="text-center">
                 <div className="bg-white/10 rounded-xl p-4 sm:p-6">
                   <Calendar className="w-6 h-6 sm:w-8 sm:h-8 text-white mx-auto mb-2 sm:mb-3" />
-                  <h4 className="font-bold text-base sm:text-lg mb-1 sm:mb-2">Sábado</h4>
-                  <p className="text-xl sm:text-2xl font-bold text-green-300">8h às 12h</p>
-                  <p className="text-white/80 text-xs sm:text-sm mt-1 sm:mt-2">Somente com agendamento</p>
+                  <h4 className="font-bold text-base sm:text-lg mb-1 sm:mb-2">Fins de Semana</h4>
+                  <p className="text-xl sm:text-2xl font-bold text-red-300">Fechado</p>
+                  <p className="text-white/80 text-xs sm:text-sm mt-1 sm:mt-2">Não funcionamos aos sábados e domingos</p>
                 </div>
               </div>
             </div>
             <div className="text-center mt-4 sm:mt-6 p-3 sm:p-4 bg-white/10 rounded-xl">
               <p className="text-white/90 text-sm sm:text-base">
-                <span className="font-bold">Horário comercial flexibilizado</span> para melhor atendimento
+                <span className="font-bold">Funcionamento de segunda a sexta</span> das 7h às 18:30h
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@ const Contact = () => {
                   className="btn-primary shadow-2xl flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>Ligar e Agendar Agora</span>
+                  <span>Ligar e Conversar Agora</span>
                 </a>
                 <a 
                   href="#gallery"

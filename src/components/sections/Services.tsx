@@ -52,12 +52,12 @@ const ServiceCard = ({ icon: Icon, title, description, features, image, delay = 
   return (
     <div 
       ref={cardRef}
-      className="fade-in bg-white rounded-2xl shadow-lg card-hover relative overflow-hidden border border-gray-100 group"
+      className="fade-in bg-white rounded-2xl shadow-lg card-hover relative overflow-hidden border border-gray-100 group flex flex-col h-full"
     >
       <div className="absolute top-0 left-0 right-0 h-1 gradient-primary"></div>
       
       {/* Image */}
-      <div className="relative h-40 sm:h-48 overflow-hidden">
+      <div className="relative h-40 sm:h-48 overflow-hidden flex-shrink-0">
       <Image
       src={image}
       alt={title}
@@ -76,7 +76,7 @@ const ServiceCard = ({ icon: Icon, title, description, features, image, delay = 
       </div>
       
       {/* Content */}
-      <div className="p-4 sm:p-6">
+      <div className="p-4 sm:p-6 flex flex-col flex-grow">
         <h3 className="text-lg sm:text-xl font-bold text-blue-600 mb-2 sm:mb-3 flex items-center gap-2">
           <Icon className="w-4 h-4 sm:w-5 sm:h-5" />
           <span>{title}</span>
@@ -86,7 +86,7 @@ const ServiceCard = ({ icon: Icon, title, description, features, image, delay = 
         </p>
         
         {/* Features */}
-        <ul className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6">
+        <ul className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6 flex-grow">
           {features.map((feature, index) => (
             <li key={index} className="flex items-start text-xs sm:text-sm text-gray-700">
               <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-500 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
@@ -96,13 +96,15 @@ const ServiceCard = ({ icon: Icon, title, description, features, image, delay = 
         </ul>
         
         {/* CTA */}
-        <Link 
-          href="#contact" 
-          className="w-full bg-blue-600 text-white py-2.5 sm:py-3 px-4 rounded-lg font-medium text-center block hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-        >
-          <span>Consultar Disponibilidade</span>
-          <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
-        </Link>
+        <div className="mt-auto">
+          <Link 
+            href="#contact" 
+            className="w-full bg-blue-600 text-white py-2.5 sm:py-3 px-4 rounded-lg font-medium text-center block hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+          >
+            <span>Consultar Disponibilidade</span>
+            <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
+          </Link>
+        </div>
       </div>
     </div>
   )
@@ -113,7 +115,7 @@ const Services = () => {
     {
       icon: Briefcase,
       title: 'Estações de trabalho compartilhadas',
-      description: 'Ambientes organizados, confortáveis e com internet de alta velocidade para você focar no que importa: produzir.',
+      description: 'Ambientes organizados, confortáveis e com internet de alta velocidade para você focar.',
       features: [
         'Ideal para autônomos e freelancers',
         'Estudantes e pequenos negócios',
@@ -137,7 +139,7 @@ const Services = () => {
     {
       icon: Users,
       title: 'Sala de reunião equipada',
-      description: 'Espaço exclusivo para reuniões presenciais ou videoconferências, com TV, ar-condicionado e uma atmosfera profissional.',
+      description: 'Espaço exclusivo para reuniões presenciais ou videoconferências, com TV, ambiente climatizado e uma atmosfera profissional.',
       features: [
         'Perfeita para atender clientes',
         'Conduzir entrevistas e apresentações',
@@ -164,7 +166,7 @@ const Services = () => {
       description: 'Flexibilidade de horários e modelos de contratação sob medida para sua necessidade.',
       features: [
         'Contratos personalizados',
-        'Acesso 24/7 disponível',
+        'Funcionamento de 7h às 18:30h',
         'Day use e mensalidades',
         'Sem burocracias desnecessárias'
       ],
@@ -236,13 +238,6 @@ const Services = () => {
             </div>
             
             <div className="space-y-3 sm:space-y-4">
-              <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-                <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 flex-shrink-0" />
-                <div>
-                  <div className="font-bold text-green-700 text-sm sm:text-base">Sem Taxa de Adesão</div>
-                  <div className="text-xs sm:text-sm text-green-600">Para contratos acima de 6 meses</div>
-                </div>
-              </div>
               <div className="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg">
                 <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-600 flex-shrink-0" />
                 <div>

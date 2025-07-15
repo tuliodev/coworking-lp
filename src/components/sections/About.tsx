@@ -43,7 +43,7 @@ const About = () => {
     { number: '500m²', label: 'Área Total' },
     { number: '50+', label: 'Posições de Trabalho' },
     { number: '6', label: 'Ambientes Distintos' },
-    { number: '24/7', label: 'Acesso Disponível' }
+    { number: '7h-18:30h', label: 'Horário de Funcionamento' }
   ]
 
   const differentials = [
@@ -78,7 +78,7 @@ const About = () => {
               
               <p className="text-base sm:text-lg">
                 A palavra “nave” simboliza <strong>movimento, avanço, inovação</strong> e a coragem de explorar o desconhecido. 
-                É sobre sair da zona de conforto e construir novos caminhos. Cada ambiente foi pensado como uma 
+                É sobre sair da zona de conforto e construir novos caminhos. Cada ambiente foi pensado como uma {" "}
                 <strong>plataforma de decolagem</strong> para ideias ganharem forma.
               </p>
             </div>
@@ -107,7 +107,7 @@ const About = () => {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link href="#contact" className="btn-gradient flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
                 <Phone className="w-4 h-4" />
-                <span>Agendar Visita Técnica</span>
+                <span>Entrar em Contato</span>
               </Link>
               <Link href="#gallery" className="btn-cta flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
                 <Camera className="w-4 h-4" />
@@ -167,7 +167,7 @@ const About = () => {
                 <span>Ligar Agora</span>
               </a>
               <a 
-                href="https://wa.me/553599999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20técnica%20ao%20Espaço%20Nave%20Coworking."
+                href="https://wa.me/553599999999?text=Olá!%20Gostaria%20de%20conhecer%20o%20Espaço%20Nave%20Coworking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cta flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"

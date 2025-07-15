@@ -16,32 +16,29 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8 sm:mb-12">
           {/* Logo e Descrição */}
-          <div className="sm:col-span-2 text-center sm:text-left">
+          <div className="sm:col-span-2 text-center sm:text-left ">
             <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-3 mb-4 sm:mb-6">
-              <div className="relative w-8 h-8 sm:w-10 md:w-12 sm:h-10 md:h-12">
-                <Image
-                  src="/images/LOGOTIPO ESPAÇO NAVE-04.png"
-                  alt="Logo Espaço Nave"
-                  fill
-                  className="object-contain filter brightness-0 invert"
-                  sizes="(max-width: 640px) 32px, (max-width: 768px) 40px, 48px"
-                />
-              </div>
               <div>
-                <div className="text-lg sm:text-xl font-bold">
-                  ESPAÇO<span className="text-green-400">NAVE</span>
-                </div>
-                <div className="text-xs text-green-400 uppercase tracking-widest">
-                  COWORKING
-                </div>
-              </div>
-            </div>
+
             <p className="text-gray-300 leading-relaxed max-w-md text-sm sm:text-base mx-auto sm:mx-0 mb-4">
               Muito mais que um coworking. Um ponto de partida para o seu próximo salto.
             </p>
             <p className="text-green-400 font-medium italic text-sm sm:text-base">
               "Espaço Nave. Onde o trabalho se conecta com o futuro."
             </p>
+              </div>
+              <div className="relative h-20 sm:h-24 md:h-28 lg:h-32 w-auto">
+                <Image
+                  src="/images/LOGOTIPO ESPAÇO NAVE-04.png"
+                  alt="Logo Espaço Nave Coworking"
+                  width={400}
+                  height={100}
+                  className="object-contain h-full w-auto"
+                  sizes="(max-width: 640px) 300px, (max-width: 768px) 350px, (max-width: 1024px) 400px, 450px"
+                  quality={100}
+                />
+              </div>
+            </div>
           </div>
 
           {/* Contato */}
