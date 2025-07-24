@@ -29,14 +29,14 @@ const Header = () => {
         <div className="flex justify-between items-center h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20">
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform duration-300">
-            <div className="relative h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 logo-container flex items-center">
+            <div className="relative h-44 logo-container flex items-center">
               <Image
                 src="/images/LOGOTIPO ESPAÇO NAVE-09.png"
                 alt="Logo Espaço Nave Coworking"
-                width={600}
-                height={150}
+                width={700}
+                height={175}
                 className="object-contain h-full w-auto max-w-none"
-                sizes="(max-width: 640px) 200px, (max-width: 768px) 250px, (max-width: 1024px) 450px, (max-width: 1280px) 550px, 650px"
+                sizes="(max-width: 640px) 200px, (max-width: 768px) 250px, (max-width: 1024px) 500px, (max-width: 1280px) 600px, 700px"
                 priority
                 quality={100}
                 unoptimized={false}

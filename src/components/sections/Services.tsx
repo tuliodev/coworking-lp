@@ -122,7 +122,7 @@ const Services = () => {
         'Espaço inteligente e funcional',
         'Bem localizado e equipado'
       ],
-      image: '/images/IMG_0690.JPG'
+      image: '/images/IMG_0761.JPG'
     },
     {
       icon: Building2,
@@ -146,7 +146,7 @@ const Services = () => {
         'Alinhamentos de equipe',
         'Total conforto e discrição'
       ],
-      image: '/images/IMG_0721 (1).JPG'
+      image: '/images/sala 0 --.jpeg'
     },
     {
       icon: Presentation,
@@ -158,19 +158,19 @@ const Services = () => {
         'Experiência completa e personalizada',
         'Equipamentos modernos disponíveis'
       ],
-      image: '/images/IMG_0746 (1).JPG'
+      image: '/images/IMG_0690.JPG'
     },
     {
       icon: Calendar,
-      title: 'Horários flexíveis',
-      description: 'Flexibilidade de horários e modelos de contratação sob medida para sua necessidade.',
+      title: 'Estações individuais',
+      description: 'Espaços individuais dedicados para quem busca foco total e ambiente personalizado.',
       features: [
-        'Contratos personalizados',
-        'Funcionamento de 7h às 18:30h',
-        'Day use e mensalidades',
-        'Sem burocracias desnecessárias'
+        'Privacidade para concentração',
+        'Mesa e cadeira ergonômica',
+        'Iluminação adequada',
+        'Ambiente silencioso'
       ],
-      image: '/images/IMG_0757.JPG'
+      image: '/images/IMG_0749.JPG'
     },
     {
       icon: MapPin,
@@ -180,9 +180,9 @@ const Services = () => {
         'Recepção acolhedora',
         'Suporte personalizado',
         'Comunidade de profissionais',
-        'Networking real e efetivo'
+        'Copa equipada para seu conforto'
       ],
-      image: '/images/IMG_0733.JPG'
+      image: '/images/IMG_0693.JPG'
     }
   ]
 

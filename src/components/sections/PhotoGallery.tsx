@@ -27,64 +27,52 @@ const PhotoGallery = () => {
 
   const images = [
     {
-      src: '/images/IMG_0690.JPG',
-      alt: 'Ambiente de trabalho colaborativo',
-      title: 'Área de Coworking'
-    },
-    {
-      src: '/images/IMG_0693.JPG',
-      alt: 'Estações de trabalho modernas',
-      title: 'Estações Individuais'
-    },
-    {
-      src: '/images/IMG_0721 (1).JPG',
-      alt: 'Sala de reuniões equipada',
-      title: 'Sala de Reuniões'
-    },
-    {
-      src: '/images/IMG_0727.JPG',
-      alt: 'Ambiente inspirador para trabalho',
-      title: 'Espaço Criativo'
-    },
-    {
-      src: '/images/IMG_0733.JPG',
-      alt: 'Área comum para networking',
-      title: 'Área de Convivência'
+      src: '/images/IMG_0761.JPG',
+      alt: 'Estações de trabalho compartilhadas'
     },
     {
       src: '/images/IMG_0740 (1).JPG',
-      alt: 'Sala privativa para equipes',
-      title: 'Sala Privativa'
-    },
-    {
-      src: '/images/IMG_0746 (1).JPG',
-      alt: 'Auditório para eventos',
-      title: 'Auditório'
-    },
-    {
-      src: '/images/IMG_0749.JPG',
-      alt: 'Ambiente moderno e aconchegante',
-      title: 'Área de Trabalho'
-    },
-    {
-      src: '/images/IMG_0757.JPG',
-      alt: 'Espaço para palestras e cursos',
-      title: 'Sala de Treinamento'
-    },
-    {
-      src: '/images/IMG_0761.JPG',
-      alt: 'Infraestrutura completa',
-      title: 'Tecnologia Avançada'
+      alt: 'Salas privativas para locação'
     },
     {
       src: '/images/sala 0 --.jpeg',
-      alt: 'Sala principal do coworking',
-      title: 'Sala Principal'
+      alt: 'Sala de reunião equipada'
+    },
+    {
+      src: '/images/IMG_0690.JPG',
+      alt: 'Ambiente para eventos'
+    },
+    {
+      src: '/images/IMG_0749.JPG',
+      alt: 'Estações individuais'
+    },
+    {
+      src: '/images/IMG_0693.JPG',
+      alt: 'Copa equipada - atendimento humanizado'
+    },
+    {
+      src: '/images/IMG_0721 (1).JPG',
+      alt: 'Ambiente de trabalho colaborativo'
+    },
+    {
+      src: '/images/IMG_0727.JPG',
+      alt: 'Ambiente inspirador para trabalho'
+    },
+    {
+      src: '/images/IMG_0733.JPG',
+      alt: 'Área comum para networking'
+    },
+    {
+      src: '/images/IMG_0746 (1).JPG',
+      alt: 'Espaço para eventos e palestras'
+    },
+    {
+      src: '/images/IMG_0757.JPG',
+      alt: 'Sala de treinamento'
     },
     {
       src: '/images/sala 0 -.jpeg',
-      alt: 'Vista geral dos ambientes',
-      title: 'Vista Geral'
+      alt: 'Vista geral dos ambientes'
     }
   ]
 

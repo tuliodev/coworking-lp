@@ -48,8 +48,9 @@ const Location = () => {
             </div>
             <h3 className="text-xl font-semibold text-blue-600 mb-4">Endereço</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              R. José Gonçalves Pereira, nº 129<br />
-              Vila Pinto - Varginha - MG
+              R. José Gonçalves Pereira, 129<br />
+              Vila Pinto - Varginha - MG<br />
+              CEP: 37010-500
             </p>
           </div>
 
@@ -70,13 +71,19 @@ const Location = () => {
             </Link>
           </div>
 
-          {/* Map placeholder */}
-          <div className="bg-gradient-to-br from-green-100 to-blue-100 h-64 rounded-2xl flex items-center justify-center shadow-inner border border-gray-200">
-            <div className="text-center">
-              <Navigation className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-              <p className="text-gray-600 font-medium">Mapa interativo em breve</p>
-              <p className="text-gray-500 text-sm mt-2">Clique nos botões acima para navegar</p>
-            </div>
+          {/* Google Maps Embed */}
+          <div className="bg-white p-4 rounded-2xl shadow-lg border border-gray-200">
+            <iframe
+              src="https://maps.google.com/maps?q=R.+Jos%C3%A9+Gon%C3%A7alves+Pereira,+129+-+Vila+Pinto,+Varginha+-+MG,+37010-500&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="400"
+              style={{ border: 0, borderRadius: '12px' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Localização do Espaço Nave Coworking"
+              className="w-full"
+            ></iframe>
           </div>
 
           {/* Quick Info Cards */}
