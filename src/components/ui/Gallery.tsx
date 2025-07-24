@@ -7,7 +7,7 @@ interface GalleryProps {
   images: Array<{
     src: string
     alt: string
-    title: string
+    title?: string
   }>
 }
 
@@ -88,7 +88,9 @@ const Gallery = ({ images }: GalleryProps) => {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
                 <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="text-2xl mb-2">🔍</div>
-                  <p className="text-sm font-medium text-center px-2">{image.title}</p>
+                  {image.title && (
+                    <p className="text-sm font-medium text-center px-2">{image.title}</p>
+                  )}
                 </div>
               </div>
             </div>
@@ -132,7 +134,9 @@ const Gallery = ({ images }: GalleryProps) => {
             
             {/* Image info */}
             <div className="absolute bottom-4 left-4 right-4 text-white">
-              <p className="font-medium">{images[selectedImage].title}</p>
+              {images[selectedImage].title && (
+                <p className="font-medium">{images[selectedImage].title}</p>
+              )}
               <p className="text-sm text-gray-300">
                 {selectedImage + 1} de {images.length}
               </p>
