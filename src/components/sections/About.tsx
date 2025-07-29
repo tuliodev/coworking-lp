@@ -43,7 +43,7 @@ const About = () => {
     { number: '500m²', label: 'Área Total' },
     { number: '50+', label: 'Posições de Trabalho' },
     { number: '6', label: 'Ambientes Distintos' },
-    { number: '7h-18:30h', label: 'Horário de Funcionamento' }
+    { number: '07h00-18h30', label: 'Horário de Funcionamento' }
   ]
 
   const differentials = [
@@ -156,7 +156,7 @@ const About = () => {
             </h3>
             <p className="text-gray-700 mb-4 sm:mb-6 max-w-2xl mx-auto text-sm sm:text-base">
               O Espaço Nave é, acima de tudo, um convite. Um convite para quem quer crescer, criar, colaborar. 
-              Para quem acredita que trabalhar em um bom lugar faz toda a diferença.
+              Para quem acredita que trabalhar em um ambiente agradável faz toda a diferença.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <a 

@@ -33,11 +33,11 @@ export const BRAND_COLORS = {
 
 // Contact information
 export const CONTACT_DATA = {
-  phone: '(35) 9 9999-9999',
+  phone: '(35) 9 9265-7526',
   phoneLink: 'tel:+553599999999',
   whatsapp: 'https://wa.me/553599999999',
-  email: 'adm@espaconave.com',
-  emailLink: 'mailto:adm@espaconave.com',
+  email: 'admespaconave@gmail.com',
+  emailLink: 'mailto:admespaconave@gmail.com',
   instagram: '@espaconavecoworking',
   instagramLink: 'https://instagram.com/espaconavecoworking',
   address: 'R. José Gonçalves Pereira, nº 129 - Vila Pinto, Varginha - MG'

@@ -93,8 +93,8 @@ Classes personalizadas criadas:
 
 ## 📱 Contatos do Espaço Nave
 
-- **Telefone**: (35) 9 9999-9999
-- **Email**: adm@espaconave.com
+- **Telefone**: (35) 9 9265-7526
+- **Email**: admespaconave@gmail.com
 - **Instagram**: @espaconavecoworking
 - **Endereço**: R. José Gonçalves Pereira, nº 129 - Vila Pinto, Varginha - MG
 

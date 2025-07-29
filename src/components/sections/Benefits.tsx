@@ -58,8 +58,8 @@ const Benefits = () => {
     },
     {
       icon: Clock,
-      title: 'Flexibilidade total',
-      description: 'Flexibilidade de horários e modelos de contratação sob medida',
+      title: 'Endereço fiscal',
+      description: 'Endereço empresarial e escritório virtual',
       color: 'from-indigo-500 to-purple-500'
     },
     {

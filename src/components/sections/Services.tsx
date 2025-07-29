@@ -117,19 +117,19 @@ const Services = () => {
       title: 'Estações de trabalho compartilhadas',
       description: 'Ambientes organizados, confortáveis e com internet de alta velocidade para você focar.',
       features: [
-        'Ideal para autônomos e freelancers',
+        'Ideal para profissionais autônomos e freelancers',
         'Estudantes e pequenos negócios',
         'Espaço inteligente e funcional',
         'Bem localizado e equipado'
       ],
-      image: '/images/IMG_0761.JPG'
+      image: '/images/IMG_0727.JPG'
     },
     {
       icon: Building2,
       title: 'Salas privativas para locação',
       description: 'Precisa de mais privacidade para reuniões, atendimentos ou uma rotina fixa de trabalho?',
       features: [
-        'Salas mobiliadas e climatizadas',
+        'Salas mobiliadas',
         'Prontas para uso imediato',
         'Contratos flexíveis',
         'Estrutura profissional'
@@ -146,7 +146,7 @@ const Services = () => {
         'Alinhamentos de equipe',
         'Total conforto e discrição'
       ],
-      image: '/images/sala 0 --.jpeg'
+      image: '/images/sala 0 -.jpeg'
     },
     {
       icon: Presentation,
@@ -174,15 +174,15 @@ const Services = () => {
     },
     {
       icon: MapPin,
-      title: 'Atendimento humanizado',
-      description: 'Atendimento próximo, humano e comprometido com a sua experiência no Espaço Nave.',
+      title: 'Copa equipada',
+      description: '',
       features: [
-        'Recepção acolhedora',
-        'Suporte personalizado',
-        'Comunidade de profissionais',
-        'Copa equipada para seu conforto'
+        'Café gourmet',
+        'Microondas',
+        'Geladeira',
+        'Água filtrada',
       ],
-      image: '/images/IMG_0693.JPG'
+      image: '/images/COPA.jpeg'
     }
   ]
 

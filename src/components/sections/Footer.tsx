@@ -47,11 +47,11 @@ const Footer = () => {
             <div className="space-y-2 sm:space-y-3 text-gray-300 text-sm">
               <a href="tel:+553599999999" className="flex items-center justify-center sm:justify-start gap-2 hover:text-green-400 transition-colors">
                 <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-                <span>(35) 9 9999-9999</span>
+                <span>(35) 9 9265-7526</span>
               </a>
-              <a href="mailto:adm@espaconave.com" className="flex items-center justify-center sm:justify-start gap-2 hover:text-green-400 transition-colors">
+              <a href="mailto:admespaconave@gmail.com" className="flex items-center justify-center sm:justify-start gap-2 hover:text-green-400 transition-colors">
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-                <span>adm@espaconave.com</span>
+                <span>admespaconave@gmail.com</span>
               </a>
               <div className="flex items-start justify-center sm:justify-start gap-2">
                 <MapPin className="w-3 h-3 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
@@ -69,11 +69,11 @@ const Footer = () => {
             <div className="space-y-1 sm:space-y-2 text-gray-300 text-sm">
               <div className="flex justify-between items-center">
                 <span>Segunda a Sexta</span>
-                <span className="font-medium">8h - 18h</span>
+                <span className="font-medium">07h00 - 18h30</span>
               </div>
               <div className="flex justify-between items-center">
                 <span>Sábado</span>
-                <span className="font-medium">8h - 12h</span>
+                <span className="text-gray-500">Fechado</span>
               </div>
               <div className="flex justify-between items-center">
                 <span>Domingo</span>
@@ -113,7 +113,7 @@ const Footer = () => {
             <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-white group-hover:scale-110 transition-transform" />
           </a>
           <a 
-            href="mailto:adm@espaconave.com"
+            href="mailto:admespaconave@gmail.com"
             className="w-10 h-10 sm:w-12 sm:h-12 bg-slate-700 rounded-full flex items-center justify-center hover:bg-green-400 transition-colors group"
           >
             <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-white group-hover:scale-110 transition-transform" />
@@ -126,7 +126,7 @@ const Footer = () => {
             &copy; {currentYear} Espaço Nave Coworking. Todos os direitos reservados.
           </p>
           <p className="text-gray-500 text-xs mt-1 sm:mt-2">
-            CNPJ: 00.000.000/0001-00 | Varginha - MG
+            CNPJ: 21.715.642/0001-47 | Varginha - MG
           </p>
         </div>
       </div>

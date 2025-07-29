@@ -104,7 +104,7 @@ const Contact = () => {
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Atendimento Imediato</h3>
               <p className="text-white/90 mb-4 sm:mb-6 text-sm sm:text-base">
                 Ligue agora para conhecer mais sobre o Espaço Nave. 
-                Atendimento comercial de segunda a sexta, das 7h às 18:30h.
+                Atendimento comercial de segunda a sexta, das 07h00 às 18h30h.
               </p>
             </div>
             
@@ -115,7 +115,7 @@ const Contact = () => {
               >
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                 <div className="text-left">
-                  <div className="font-bold">(35) 9 9999-9999</div>
+                  <div className="font-bold">(35) 9 9265-7526</div>
                   <div className="text-xs opacity-90">Ligar Agora</div>
                 </div>
               </a>
@@ -140,7 +140,7 @@ const Contact = () => {
             <ContactCard
               icon={Phone}
               title="Telefone Comercial"
-              info="(35) 9 9999-9999"
+              info="(35) 9 9265-7526"
               description="Atendimento comercial e informações"
               href="tel:+553599999999"
               primary
@@ -148,9 +148,9 @@ const Contact = () => {
             <ContactCard
               icon={Mail}
               title="E-mail Corporativo"
-              info="adm@espaconave.com"
+              info="admespaconave@gmail.com"
               description="Propostas comerciais e parcerias"
-              href="mailto:adm@espaconave.com?subject=Interesse%20comercial%20-%20Espaço%20Nave"
+              href="mailto:admespaconave@gmail.com?subject=Interesse%20comercial%20-%20Espaço%20Nave"
             />
             <ContactCard
               icon={Instagram}
@@ -172,7 +172,7 @@ const Contact = () => {
                 <div className="bg-white/10 rounded-xl p-4 sm:p-6">
                   <Building2 className="w-6 h-6 sm:w-8 sm:h-8 text-white mx-auto mb-2 sm:mb-3" />
                   <h4 className="font-bold text-base sm:text-lg mb-1 sm:mb-2">Segunda a Sexta</h4>
-                  <p className="text-xl sm:text-2xl font-bold text-green-300">7h às 18:30h</p>
+                  <p className="text-xl sm:text-2xl font-bold text-green-300">07h00 às 18h30</p>
                   <p className="text-white/80 text-xs sm:text-sm mt-1 sm:mt-2">Atendimento comercial e acesso</p>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const Contact = () => {
             </div>
             <div className="text-center mt-4 sm:mt-6 p-3 sm:p-4 bg-white/10 rounded-xl">
               <p className="text-white/90 text-sm sm:text-base">
-                <span className="font-bold">Funcionamento de segunda a sexta</span> das 7h às 18:30h
+                <span className="font-bold">Funcionamento de segunda a sexta</span> das 07h00 às 18h30
               </p>
             </div>
           </div>

@@ -106,7 +106,7 @@ const Hero = () => {
                   className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white/20 transition-colors min-w-0 flex-shrink-0"
                 >
                   <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-                  <span className="truncate">(35) 9 9999-9999</span>
+                  <span className="truncate">(35) 9 9265-7526</span>
                 </a>
                 <div className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm min-w-0 flex-shrink-0">
                   <MapPin className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
@@ -116,7 +116,7 @@ const Hero = () => {
               <div className="flex justify-center lg:justify-start">
               <div className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm">
               <Clock className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-              <span>Seg-Sex 7h às 18:30h</span>
+              <span>Seg-Sex 07h00 às 18h30</span>
               </div>
               </div>
             </div>
