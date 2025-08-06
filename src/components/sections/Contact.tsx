@@ -110,18 +110,20 @@ const Contact = () => {
             
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <a 
-                href="tel:+553599999999" 
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20conversar%20sobre%20os%20planos%20do%20Espaço%20Nave%20Coworking."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary shadow-2xl flex items-center justify-center gap-2 text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
               >
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                 <div className="text-left">
                   <div className="font-bold">(35) 9 9265-7526</div>
-                  <div className="text-xs opacity-90">Ligar Agora</div>
+                  <div className="text-xs opacity-90">WhatsApp</div>
                 </div>
               </a>
               
               <a 
-                href="https://wa.me/553599999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Espaço%20Nave%20Coworking%20para%20conhecer%20os%20ambientes%20e%20valores."
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Espaço%20Nave%20Coworking%20para%20conhecer%20os%20ambientes%20e%20valores."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cta shadow-2xl flex items-center justify-center gap-2 text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
@@ -142,7 +144,9 @@ const Contact = () => {
               title="Telefone Comercial"
               info="(35) 9 9265-7526"
               description="Atendimento comercial e informações"
-              href="tel:+553599999999"
+              href="https://wa.me/5535992657526?text=Olá!%20Vi%20o%20contato%20de%20vocês%20no%20site%20e%20gostaria%20de%20mais%20informações."
+              target="_blank"
+              rel="noopener noreferrer"
               primary
             />
             <ContactCard
@@ -207,11 +211,13 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                 <a 
-                  href="tel:+553599999999"
+                  href="https://wa.me/5535992657526?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20espaços%20disponíveis%20e%20começar%20agora!"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-primary shadow-2xl flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>Ligar e Conversar Agora</span>
+                  <span>Conversar via WhatsApp</span>
                 </a>
                 <a 
                   href="#gallery"

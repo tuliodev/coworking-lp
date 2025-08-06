@@ -45,7 +45,12 @@ const Footer = () => {
           <div className="text-center sm:text-left">
             <h4 className="font-bold mb-3 sm:mb-4 text-green-400 text-sm sm:text-base">Contato</h4>
             <div className="space-y-2 sm:space-y-3 text-gray-300 text-sm">
-              <a href="tel:+553599999999" className="flex items-center justify-center sm:justify-start gap-2 hover:text-green-400 transition-colors">
+              <a 
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20o%20Espaço%20Nave."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center sm:justify-start gap-2 hover:text-green-400 transition-colors"
+              >
                 <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
                 <span>(35) 9 9265-7526</span>
               </a>
@@ -105,7 +110,7 @@ const Footer = () => {
             <Instagram className="w-4 h-4 sm:w-5 sm:h-5 text-white group-hover:scale-110 transition-transform" />
           </a>
           <a 
-            href="https://wa.me/553599999999" 
+            href="https://wa.me/5535992657526?text=Olá!%20Vim%20pelo%20site%20do%20Espaço%20Nave." 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-10 h-10 sm:w-12 sm:h-12 bg-slate-700 rounded-full flex items-center justify-center hover:bg-green-400 transition-colors group"

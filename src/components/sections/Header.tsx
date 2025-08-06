@@ -66,12 +66,17 @@ const Header = () => {
           </ul>
 
           {/* CTA Button */}
-          <Link href="#contact" className="btn-header flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 sm:py-3">
+          <a 
+            href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Espaço%20Nave%20Coworking."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-header flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 sm:py-3"
+          >
             <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
             <span className="hidden sm:inline">Agende uma</span>
             <span className="sm:hidden">Visita</span>
             <span className="hidden sm:inline">Visita</span>
-          </Link>
+          </a>
         </div>
       </nav>
     </header>

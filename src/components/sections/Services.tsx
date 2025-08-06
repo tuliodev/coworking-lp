@@ -97,13 +97,15 @@ const ServiceCard = ({ icon: Icon, title, description, features, image, delay = 
         
         {/* CTA */}
         <div className="mt-auto">
-          <Link 
-            href="#contact" 
+          <a 
+            href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20espaços%20no%20Espaço%20Nave."
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full bg-blue-600 text-white py-2.5 sm:py-3 px-4 rounded-lg font-medium text-center block hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
           >
             <span>Consultar Disponibilidade</span>
             <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
@@ -226,14 +228,24 @@ const Services = () => {
                 combinando diferentes serviços com condições especiais.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <Link href="#contact" className="btn-gradient flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
+                <a 
+                  href="https://wa.me/5535992657526?text=Olá!%20Preciso%20de%20uma%20solução%20personalizada%20para%20minha%20empresa%20no%20Espaço%20Nave."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-gradient flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
+                >
                   <MessageSquare className="w-4 h-4" />
                   <span>Falar com Consultor</span>
-                </Link>
-                <Link href="#gallery" className="btn-cta flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
+                </a>
+                <a 
+                  href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20conhecer%20as%20instalações%20do%20Espaço%20Nave%20e%20agendar%20uma%20visita."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-cta flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
+                >
                   <Camera className="w-4 h-4" />
                   <span>Conhecer Instalações</span>
-                </Link>
+                </a>
               </div>
             </div>
             

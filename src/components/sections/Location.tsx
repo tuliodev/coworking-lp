@@ -65,10 +65,15 @@ const Location = () => {
               <Navigation className="w-4 h-4" />
               Ver no Google Maps
             </Link>
-            <Link href="#contact" className="btn-cta flex items-center gap-2 justify-center">
+            <a 
+              href="https://wa.me/5535992657526?text=Olá!%20Preciso%20de%20ajuda%20para%20chegar%20no%20Espaço%20Nave."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-cta flex items-center gap-2 justify-center"
+            >
               <Phone className="w-4 h-4" />
               Como Chegar
-            </Link>
+            </a>
           </div>
 
           {/* Google Maps Embed */}

@@ -88,21 +88,33 @@ const Hero = () => {
             </div>
             
             <div className={`flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-              <Link href="#contact" className="btn-primary shadow-2xl flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
+              <a 
+                href="https://wa.me/5535992657526?text=Olá!%20Vi%20o%20site%20do%20Espaço%20Nave%20e%20gostaria%20de%20saber%20mais%20informações%20sobre%20o%20coworking."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary shadow-2xl flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
+              >
                 <Phone className="w-4 h-4" />
                 <span>Entrar em Contato</span>
-              </Link>
-              <Link href="#services" className="btn-secondary flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4">
+              </a>
+              <a 
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20conhecer%20o%20Espaço%20Nave%20e%20agendar%20uma%20visita."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
+              >
                 <FileText className="w-4 h-4" />
                 <span>Conheça o Espaço</span>
-              </Link>
+              </a>
             </div>
 
             {/* Informações de contato direto */}
             <div className={`flex flex-col gap-3 text-xs sm:text-sm transition-all duration-1000 delay-800 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
               <div className="flex flex-wrap gap-2 sm:gap-3 justify-center lg:justify-start">
                 <a 
-                  href="tel:+553599999999"
+                  href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20conversar%20sobre%20o%20Espaço%20Nave."
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white/20 transition-colors min-w-0 flex-shrink-0"
                 >
                   <Phone className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
