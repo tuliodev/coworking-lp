@@ -34,8 +34,8 @@ export const BRAND_COLORS = {
 // Contact information
 export const CONTACT_DATA = {
   phone: '(35) 9 9265-7526',
-  phoneLink: 'tel:+553599999999',
-  whatsapp: 'https://wa.me/553599999999',
+  phoneLink: 'tel:+5535992657526',
+  whatsapp: 'https://wa.me/5535992657526',
   email: 'admespaconave@gmail.com',
   emailLink: 'mailto:admespaconave@gmail.com',
   instagram: '@espaconavecoworking',
