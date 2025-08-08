@@ -21,10 +21,12 @@ interface ContactCardProps {
   info: string
   description: string
   href?: string
+  target?: string
+  rel?: string
   primary?: boolean
 }
 
-const ContactCard = ({ icon: Icon, title, info, description, href, primary }: ContactCardProps) => {
+const ContactCard = ({ icon: Icon, title, info, description, href, target, rel, primary }: ContactCardProps) => {
   const content = (
     <div className={`p-6 rounded-xl backdrop-blur-sm border transition-all duration-300 hover:scale-105 ${
       primary 
@@ -41,9 +43,15 @@ const ContactCard = ({ icon: Icon, title, info, description, href, primary }: Co
   )
 
   return href ? (
-    <Link href={href} className="block">
-      {content}
-    </Link>
+    target ? (
+      <a href={href} target={target} rel={rel} className="block">
+        {content}
+      </a>
+    ) : (
+      <Link href={href} className="block">
+        {content}
+      </Link>
+    )
   ) : (
     content
   )
