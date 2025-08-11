@@ -66,7 +66,7 @@ const Location = () => {
               Ver no Google Maps
             </Link>
             <a 
-              href="https://wa.me/5535992657526?text=Olá!%20Preciso%20de%20ajuda%20para%20chegar%20no%20Espaço%20Nave."
+              href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-cta flex items-center gap-2 justify-center"

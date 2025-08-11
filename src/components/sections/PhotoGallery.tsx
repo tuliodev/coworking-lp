@@ -116,7 +116,7 @@ const PhotoGallery = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://wa.me/5535992657526?text=Olá!%20Vi%20as%20fotos%20no%20site%20e%20gostaria%20de%20agendar%20uma%20visita%20ao%20Espaço%20Nave."
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gradient flex items-center gap-2 justify-center"
@@ -125,7 +125,7 @@ const PhotoGallery = () => {
                 Agendar Visita
               </a>
               <a 
-                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Espaço%20Nave%20Coworking." 
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking." 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cta flex items-center gap-2 justify-center"

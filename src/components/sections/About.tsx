@@ -106,7 +106,7 @@ const About = () => {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a 
-                href="https://wa.me/5535992657526?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Espaço%20Nave%20e%20como%20funciona."
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gradient flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
@@ -115,7 +115,7 @@ const About = () => {
                 <span>Entrar em Contato</span>
               </a>
               <a 
-                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20ver%20as%20instalações%20do%20Espaço%20Nave%20e%20agendar%20uma%20visita."
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cta flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
@@ -170,16 +170,14 @@ const About = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <a 
-                href="https://wa.me/5535992657526?text=Olá!%20Quero%20fazer%20parte%20da%20comunidade%20Espaço%20Nave."
-                target="_blank"
-                rel="noopener noreferrer"
+                href="tel:+5535992657526"
                 className="btn-primary flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
               >
                 <Phone className="w-4 h-4" />
                 <span>Ligar Agora</span>
               </a>
               <a 
-                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20conhecer%20o%20Espaço%20Nave%20Coworking."
+                href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cta flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
