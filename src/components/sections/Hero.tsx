@@ -110,9 +110,7 @@ const Hero = () => {
                   <span>Entrar em Contato</span>
                 </button>
                 <a 
-                  href="https://wa.me/5535992657526?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Espaço%20Nave%20Coworking."
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#gallery"
                   className="btn-secondary flex items-center gap-2 justify-center text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
                 >
                   <FileText className="w-4 h-4" />
